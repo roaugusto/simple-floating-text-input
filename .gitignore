@@ -1,0 +1,135 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# Visual Studio Code
+#
+.vscode/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+# Local credentials, signing material, caches and generated outputs
+.env*
+*.jks
+*.keystore
+*.p8
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.crt
+*.der
+*.mobileprovision
+*.provisionprofile
+*.pepk
+**/service-account*.json
+**/service_account*.json
+**/*serviceAccount*.json
+**/client_secret*.json
+**/credentials.json
+**/pc-api-*.json
+.agentsroom/
+.mcp.json
+.agents/
+.claude/
+.codex/
+.grok/
+.vibe/
+.kimi-code/
+.cursor/
+.idea/
+.vscode/
+.bundle/
+.DS_Store
+node_modules/
+Pods/
+.gradle/
+.expo/
+.firebase/
+.vercel/
+.turbo/
+.cache/
+coverage/
+build/
+dist/
+DerivedData/
+*.xcarchive/
+*.ipa
+*.apk
+*.aab
+*.hprof
+*.log
+*.zip
+*.tar
+*.gz
+*.dump
+*.sqlite*
+*.db
+**/local.properties
+**/.xcode.env*
+**/xcuserdata/
+artifacts/
+release/
+
+# Credential stores and local export files
+.secrets/
+.signing/
+secrets/
+*.sql.gz
+*.bak
+*.backup

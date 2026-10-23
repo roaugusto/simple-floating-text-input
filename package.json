@@ -1,0 +1,42 @@
+{
+  "name": "@roaugusto/simple-floating-text-input",
+  "version": "1.0.0",
+  "description": "A simple floating text input for React Native",
+  "author": "roaugusto <ro.augusto@gmail.com>",
+  "license": "MIT",
+  "main": "./build/dist/index.js",
+  "repository": "roaugusto/simple-floating-text-input",
+  "bugs": "https://github.com/roaugusto/simple-floating-text-input/issues",
+  "keywords": [
+    "floating",
+    "textinput",
+    "roaugusto",
+    "react",
+    "react-native"
+  ],
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.70.6",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-native": "^0.70.7",
+    "@types/styled-components-react-native": "^5.2.0",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "lint-staged": "^13.0.4",
+    "prettier": "^2.8.0",
+    "prettier-format": "^3.1.0",
+    "react-native-typescript-transformer": "^1.2.13",
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "build": "cd lib && tsc && cp ../package.json ../build/dist/ && Echo Build completed!",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags",
+    "prettier": "cd lib && npx prettier --write . && git add ."
+  }
+}
